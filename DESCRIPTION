@@ -1,11 +1,10 @@
 Package: AmarK
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Distributions
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: A.Moloudi
+Maintainer: <mohammadaminmoloudi12369@gmail.com>
+Description: binomial, bernoulli, gamma, exponential and other distributions.
 License: GPL
 Encoding: UTF-8
 LazyData: true
@@ -30,4 +29,3 @@ Collate:
     'gagenV.R'
     'pogenV.R'
     'nogenV.R'
-RoxygenNote: 6.0.1

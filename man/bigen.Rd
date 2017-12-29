@@ -5,53 +5,41 @@
 Binomial Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+A binomial random variable can be seen as the result of repeated Bernoulli Trials.
 }
 \usage{
-bigen(x)
+bigen(p, n)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{p, n}{
+float p as parameter of Bernoulli, n as number of trials
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+Used Bernoulli Generator(brgen)
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+returns a random number from 0 to n
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.google.com
 }
 \author{
-%%  ~~who you are~~
+A.Moloudi
 }
 \note{
-%%  ~~further notes~~
+nothing to note!!??
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+brgen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+bigen(0.7, 10000)
 }
+
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~bigen }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~binomial }% __ONLY ONE__ keyword per line
