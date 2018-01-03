@@ -29,7 +29,7 @@ www.google.com
 A.Moloudi
 }
 \note{
-nothing to note!!??
+This function also plots the random numbers in order to visualize this distribution with N number of trials each with success probability of p.
 }
 
 \seealso{

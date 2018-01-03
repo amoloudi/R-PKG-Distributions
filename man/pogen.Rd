@@ -5,53 +5,42 @@
 Poisson Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+The Poisson distribution, is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant rate and independently of the time since the last event.
 }
 \usage{
 pogen(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{λ}{
+λ as Poisson parameter.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+Returned value of this function is a random variable from poisson distribution with λ as parameter. 
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+A.Moloudi
 }
 \note{
-%%  ~~further notes~~
+The Poisson distribution is popular for modelling the number of times an event occurs in an interval of time or space.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+pogen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+pogen(20)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~pogen }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~Poisson }% __ONLY ONE__ keyword per line

@@ -5,7 +5,7 @@
 Binomial Generator
 }
 \description{
-A binomial random variable can be seen as the result of repeated Bernoulli Trials.
+the binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome: a random variable containing single bit of information: success/yes/true/one (with probability p) or failure/no/false/zero (with probability q = 1 − p).
 }
 \usage{
 bigen(p, n)
@@ -13,27 +13,27 @@ bigen(p, n)
 
 \arguments{
   \item{p, n}{
-float p as parameter of Bernoulli, n as number of trials
+p as parameter of Bernoulli, n as number of trials conducted.
 }
 }
 \details{
 Used Bernoulli Generator(brgen)
 }
 \value{
-returns a random number from 0 to n
+returns a number from 0 to n, representing number of success in n trials conducted which itself is a random variable.
 }
 \references{
-www.google.com
+www.wikipedia.org
 }
 \author{
 A.Moloudi
 }
 \note{
-nothing to note!!??
+
 }
 
 \seealso{
-brgen.R
+bigen.R
 }
 \examples{
 bigen(0.7, 10000)

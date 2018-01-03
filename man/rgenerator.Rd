@@ -5,32 +5,27 @@
 Random Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+Generates n random number using ... algorithem. }
 \usage{
 rgenerator(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{n,d}{
+n as number of random numbers and d as decimal parameter, represents number of after decimal point.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+This function returns a vector containing n random number.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+P.Hessabi
 }
 \note{
 %%  ~~further notes~~
@@ -39,19 +34,12 @@ rgenerator(x)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+rgenerator.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+rgenerate(2000,5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~rgenerator }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~Random }% __ONLY ONE__ keyword per line

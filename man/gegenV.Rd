@@ -5,53 +5,41 @@
 Geometric Generator Visualization
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Improved version of gegen, Can generate n random numbers.}
 }
 \usage{
 gegenV(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{n,p}{
+n as number of random numbers and p as Bernoulli trial's probability.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+This fanction returns a vector containing the random numbers.
 }
 \references{
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+A.Moayedi
 }
 \note{
-%%  ~~further notes~~
+This function also plots the random numbers in order to visualize this distribution with the given parameter p.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+gegenV.R}
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+	gegenV(20000, 0.2)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~gegenV }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~Ngeometric }% __ONLY ONE__ keyword per line

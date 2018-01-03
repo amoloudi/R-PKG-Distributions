@@ -5,53 +5,43 @@
 Normal Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+The normal (or Gaussian) distribution is a very common continuous probability distribution. Normal distributions are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known.[1][2] A random variable with a Gaussian distribution is said to be normally distributed and is called a normal deviate.
+
 }
 \usage{
 nogen(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{µ,σ}{
+parameter µ as mean and σ as standard deviation.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
+The returned value is a Guassian random variable with µ as mean and σ as standard deviation. }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+A.Moayedi
 }
 \note{
-%%  ~~further notes~~
+The normal distribution is useful because of the central limit theorem. In its most general form, under some conditions , it states that averages of samples of observations of random variables independently drawn from independent distributions converge in distribution to the normal, that is, become normally distributed when the number of observations is sufficiently large.
+
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+nogen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+nogen(3, 20)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~normal }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~nogen }% __ONLY ONE__ keyword per line

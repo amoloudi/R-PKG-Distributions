@@ -5,53 +5,42 @@
 Gamma Generator Visualization
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Improved version of expgen, Can generate n random numbers.
 }
 \usage{
 gagenV(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{n,k,x}{
+n as number of random numbers, k as number of random numbers from Poisson distribution with x as parameter λ, summed in order to generate a Gamma random variable.
 }
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+This fanction returns a vector containing the random numbers.
 }
 \references{
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+P.Tayefeh Morsal
 }
 \note{
-%%  ~~further notes~~
+This function also plots the random numbers in order to visualize this distribution with the given parameter λ and k.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+gagenV.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+gagenV(20000, 100, 2.5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~gagenV }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~Ngamma }% __ONLY ONE__ keyword per line

@@ -5,53 +5,40 @@
 Gamma Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+The gamma distribution is a two-parameter family of continuous probability distributions. The exponential distribution, Erlang distribution, and chi-squared distribution are special cases of the gamma distribution. }
 \usage{
 gagen(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{k,λ}{
+k as number of exponential variables and λ  as the exponential rate parameter of those variables.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+A gamma randome variable with parametes k,λ is a random variable generated from summation of k exponential random varible with λ as their exponential rate parameter.  }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+	A random variable from Gamma distribution with parameters k,λ.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+P.Tayefeh Morsal
 }
 \note{
-%%  ~~further notes~~
+
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+gagen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+gagen(100, 2.5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~gagen }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~Gamma }% __ONLY ONE__ keyword per line

@@ -5,53 +5,41 @@
 Exponential Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+The exponential distribution is the probability distribution that describes the time between events in a Poisson point process, i.e. a process in which events occur continuously and independently at a constant average rate. It is a particular case of the gamma distribution. }
 \usage{
 expgen(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
-%%     ~~Describe \code{x} here~~
+x as λ , the exponential rate parameter.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+Exponential distribution is a particular case of the gamma distribution. It is the continuous analogue of the geometric distribution, and it has the key property of being memoryless. In addition to being used for the analysis of Poisson point processes it is found in various other contexts.
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+The returned value of this function is a random variable from exponential distribution with λ as the exponential parameter.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+P.Hessabi
 }
 \note{
-%%  ~~further notes~~
+
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+expgen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+expgen(2.5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~expgen }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~exponential }% __ONLY ONE__ keyword per line

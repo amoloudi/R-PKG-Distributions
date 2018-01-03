@@ -5,53 +5,39 @@
 Uniform 0-1 Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+The uniform distribution or rectangular distribution is a family of symmetric probability distributions such that for each member of the family, all intervals of the same length on the distribution's support are equally probable.}
 \usage{
-cugen(x)
+cugen()
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+	\item{}{
+This function has no argument.
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+The returned value of this function is a random variable in [0,1] interval with the exact same probability for each number in this intrval to be selected.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+P.Hessabi
 }
 \note{
-%%  ~~further notes~~
+This function uses dugen function with the min parameter set as 0 and max parameter set as 1.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+cugen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+cugen()
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~cugen }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~uniform }% __ONLY ONE__ keyword per line

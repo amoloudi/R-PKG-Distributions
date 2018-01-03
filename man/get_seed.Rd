@@ -5,7 +5,7 @@
 Generate Seed
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function generates a seed for random genarator fanction by applying some arthmathics on system time and application's process id in CPU.
 }
 \usage{
 get_seed()
@@ -15,39 +15,27 @@ get_seed()
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+The returned value is a random integer number in [0,1] interval.
 }
 \references{
-%% ~put references to the literature/web site here ~
+
 }
 \author{
-%%  ~~who you are~~
+P.Tayefeh Morsal
 }
 \note{
-%%  ~~further notes~~
+function works by multypling system time to 1000, then adding it to applications's process id, and then moding the reesult by 1000 in order to move the result in to [0,1] interval.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+get_seed.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function ()
-{
-    return(as.integer((as.double(Sys.time()) * 1000 + Sys.getpid())\%\%1000))
-  }
+get_seed()
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~get_seed }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~seed }% __ONLY ONE__ keyword per line

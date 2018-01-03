@@ -5,53 +5,42 @@
 Geometric Generator
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
+the geometric distribution is a discrete probability distributions.
+The probability distribution of the number X of Bernoulli trials needed to get one success, supported on the set { 1, 2, 3, …}.}
 \usage{
 gegen(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{p}{
+p as probability of Bernoulli trials conducted.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+Consider a sequence of trials, where each trial has only two possible outcomes (designated failure and success). The probability of success is assumed to be the same for each trial. In such a sequence of trials, the geometric distribution is useful to model the number of failures before the first success. The distribution gives the probability that there are zero failures before the first success, one failure before the first success, two failures before the first success, and so on.
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+the returned value of this function is an integer number representing number of failures before the first success.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.org
 }
 \author{
-%%  ~~who you are~~
+A.Moayedi
 }
 \note{
-%%  ~~further notes~~
+
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+gegen.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+gegen(0.1)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~gegen }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~Geometric }% __ONLY ONE__ keyword per line
