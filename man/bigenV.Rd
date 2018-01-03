@@ -36,7 +36,7 @@ This function also plots the random numbers in order to visualize this distribut
 brgenV
 }
 \examples{
-bigenV(20000, 0.2, 100)
+bigenV(1000, 0.2, 100)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

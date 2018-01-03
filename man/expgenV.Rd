@@ -8,22 +8,22 @@ Exponential Generator Visualization
 Improved version of expgen, Can generate n random numbers.
 }
 \usage{
-expgenV(x)
+expgenV(n,landa)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n,x}{
-n as number of random numbers and x as λ as the exponential parameter.
+  \item{n,landa}{
+n as number of random numbers and lamda as λ as the exponential parameter.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 This fanction returns a vector containing the random numbers.
 }
 \references{
-
+www.wikipedia.com
 }
 \author{
 P.Hessabi

@@ -8,7 +8,7 @@ Geometric Generator
 the geometric distribution is a discrete probability distributions.
 The probability distribution of the number X of Bernoulli trials needed to get one success, supported on the set { 1, 2, 3, …}.}
 \usage{
-gegen(x)
+gegen(p)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -29,7 +29,7 @@ www.wikipedia.org
 A.Moayedi
 }
 \note{
-
+-
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

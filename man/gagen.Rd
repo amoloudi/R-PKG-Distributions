@@ -7,12 +7,12 @@ Gamma Generator
 \description{
 The gamma distribution is a two-parameter family of continuous probability distributions. The exponential distribution, Erlang distribution, and chi-squared distribution are special cases of the gamma distribution. }
 \usage{
-gagen(x)
+gagen(k, landa)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{k,λ}{
-k as number of exponential variables and λ  as the exponential rate parameter of those variables.
+  \item{k, landa}{
+k as number of exponential variables and landa  as the exponential rate parameter of those variables.
 }
 }
 \details{
@@ -27,7 +27,7 @@ www.wikipedia.org
 P.Tayefeh Morsal
 }
 \note{
-
+-
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

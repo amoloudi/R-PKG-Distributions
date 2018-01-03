@@ -12,13 +12,13 @@ get_seed()
 }
 %- maybe also 'usage' for other objects documented here.
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 The returned value is a random integer number in [0,1] interval.
 }
 \references{
-
+www.google.com
 }
 \author{
 P.Tayefeh Morsal

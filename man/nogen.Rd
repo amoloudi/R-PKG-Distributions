@@ -9,16 +9,16 @@ The normal (or Gaussian) distribution is a very common continuous probability di
 
 }
 \usage{
-nogen(x)
+nogen(u, s)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{µ,σ}{
-parameter µ as mean and σ as standard deviation.
+  \item{u, s}{
+parameter u as mean and s as standard deviation.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 The returned value is a Guassian random variable with µ as mean and σ as standard deviation. }

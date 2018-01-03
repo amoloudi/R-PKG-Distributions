@@ -9,22 +9,22 @@ Improved version of pogen, Can generate n random numbers.
 
 }
 \usage{
-pogenV(x)
+pogenV(n, landa)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n,x}{
-n as number of random numbers and x as λ as the poisson parameter.
+  \item{n,landa}{
+n as number of random numbers and landa as λ as the poisson parameter.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 This fanction returns a vector containing the random numbers.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.com
 }
 \author{
 A.Moloudi

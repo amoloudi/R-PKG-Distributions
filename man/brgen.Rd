@@ -9,7 +9,7 @@ The Bernoulli distribution is the probability distribution of a random variable 
 
 }
 \usage{
-brgen(x)
+brgen(p)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -21,7 +21,7 @@ p as the probability of success in the trial.
 The Bernoulli distribution is a special case of the binomial distribution with n=1. The probability distribution of any single experiment that asks a yes–no question; the question results in a boolean-valued outcome, a single bit of information whose value is success/yes/true/one with probability p and failure/no/false/zero with probability q.
 }
 \value{
-The returned value is a boolean variable, having either True/1 of False/0 value, representing success or failure of the trial conducted. 
+The returned value is a boolean variable, having either True/1 of False/0 value, representing success or failure of the trial conducted.
 }
 \references{
 www.wikipedia.org
@@ -30,7 +30,7 @@ www.wikipedia.org
 P.Tayefeh Morsal
 }
 \note{
-%%  ~~further notes~~
+nothing to note!
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

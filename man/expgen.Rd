@@ -7,12 +7,12 @@ Exponential Generator
 \description{
 The exponential distribution is the probability distribution that describes the time between events in a Poisson point process, i.e. a process in which events occur continuously and independently at a constant average rate. It is a particular case of the gamma distribution. }
 \usage{
-expgen(x)
+expgen(landa)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-x as λ , the exponential rate parameter.
+  \item{landa}{
+landa as λ , the exponential rate parameter.
 }
 }
 \details{
@@ -28,7 +28,7 @@ www.wikipedia.org
 P.Hessabi
 }
 \note{
-
+-
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~

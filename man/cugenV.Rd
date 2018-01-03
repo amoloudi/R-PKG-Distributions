@@ -8,7 +8,7 @@ Uniform 0-1 Generator Visualization
 Improved version of cugen, Can generate n random numbers.
 }
 \usage{
-cugenV(x)
+cugenV(n)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,13 +17,13 @@ n as number of random numbers in [0,1] interval.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 This fanction returns a vector containing the random numbers.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.com
 }
 \author{
 P.Hessabi}

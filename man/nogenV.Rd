@@ -8,22 +8,22 @@ Normal Generator Visualization
 Improved version of nogen, Can generate n random numbers.
 }
 \usage{
-nogenV(x)
+nogenV(n, u, s)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n,µ,σ}{
-n as number of random numbers, parameter µ as mean and σ as standard deviation.
+  \item{n,u,s}{
+n as number of random numbers, parameter u as mean and s as standard deviation.
 }
 }
 \details{
-
+-
 }
 \value{
 This fanction returns a vector containing the random numbers.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.com
 }
 \author{
 A.Moayedi}
@@ -37,7 +37,7 @@ This function also plots the random numbers in order to visualize this distribut
 nogenV.R
 }
 \examples{
-nogenV(10000, 3, 20)
+nogenV(1000, 3, 20)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

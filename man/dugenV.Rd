@@ -8,21 +8,21 @@ Uniform Generator Visualization
 Improved version of dugen, Can generate n random numbers.
 }
 \usage{
-dugenV(x)
+dugenV(n, first, last)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n,x,y}{
+  \item{n,first,last}{
 n as number of random numbers from [min,max] interval.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 This fanction returns a vector containing the random numbers.}
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.com
 }
 \author{
 P.Hessabi

@@ -5,10 +5,10 @@
 Geometric Generator Visualization
 }
 \description{
-Improved version of gegen, Can generate n random numbers.}
+Improved version of gegen, Can generate n random numbers.
 }
 \usage{
-gegenV(x)
+gegenV(n, p)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,13 +17,13 @@ n as number of random numbers and p as Bernoulli trial's probability.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
 This fanction returns a vector containing the random numbers.
 }
 \references{
-%% ~put references to the literature/web site here ~
+www.wikipedia.com
 }
 \author{
 A.Moayedi

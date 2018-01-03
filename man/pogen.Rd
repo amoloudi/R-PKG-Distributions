@@ -8,19 +8,19 @@ Poisson Generator
 The Poisson distribution, is a discrete probability distribution that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant rate and independently of the time since the last event.
 }
 \usage{
-pogen(x)
+pogen(landa)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{λ}{
+  \item{landa}{
 λ as Poisson parameter.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+-
 }
 \value{
-Returned value of this function is a random variable from poisson distribution with λ as parameter. 
+Returned value of this function is a random variable from poisson distribution with λ as parameter.
 }
 \references{
 www.wikipedia.org

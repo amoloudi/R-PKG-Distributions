@@ -1,57 +1,42 @@
 \name{nomle}
 \alias{nomle}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 normal estimation
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+finds parameter of normal distribution given as input
 }
 \usage{
 nomle(x)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
-%%     ~~Describe \code{x} here~~
+x is a vector contains a set of normal numbers
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+u is mean of X values
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+return u and v of normal distribution
 }
 \references{
-%% ~put references to the literature/web site here ~
-}
+https://www.projectrhea.org/rhea/index.php/Maximum_Likelihood_Estimation_Analysis_for_various_Probability_Distributions}
 \author{
-%%  ~~who you are~~
+A.Moloudi
 }
 \note{
-%%  ~~further notes~~
+Nothing to note!
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+bimle.R
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+x <- read.delim("DATA.txt", header=TRUE, sep="\t")
+res = nomle(x)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ ~nomle }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~normalmle }% __ONLY ONE__ keyword per line
